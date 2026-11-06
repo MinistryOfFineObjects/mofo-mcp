@@ -1,0 +1,40 @@
+name: Can't connect or sign in
+description: The server won't connect, or signing in for trade prices fails.
+labels: ["connection"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues are public. Don't include account details, email addresses or your trade prices.
+  - type: dropdown
+    id: client
+    attributes:
+      label: Which client?
+      options:
+        - Claude (web or desktop)
+        - Claude Code
+        - ChatGPT
+        - Cursor
+        - VS Code
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: step
+    attributes:
+      label: Where does it fail?
+      options:
+        - Adding the server
+        - Signing in to MOFO
+        - Approving the assistant
+        - Getting net prices after signing in
+        - Somewhere else
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: What error do you see?
+      description: Paste the message, or describe what happens.
+    validations:
+      required: true

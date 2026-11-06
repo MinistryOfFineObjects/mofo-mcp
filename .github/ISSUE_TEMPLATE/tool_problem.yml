@@ -1,0 +1,48 @@
+name: A tool isn't working
+description: A tool returned an error, wrong results or nothing at all.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues are public. Don't include account details, email addresses or your trade prices.
+  - type: dropdown
+    id: tool
+    attributes:
+      label: Which tool?
+      options:
+        - search_products
+        - get_product
+        - get_product_image
+        - list_categories
+        - list_manufacturers
+        - get_net_price
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: client
+    attributes:
+      label: Which client?
+      options:
+        - Claude (web or desktop)
+        - Claude Code
+        - ChatGPT
+        - Cursor
+        - VS Code
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: asked
+    attributes:
+      label: What did you ask for?
+      description: The prompt, or the tool inputs if you can see them.
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
