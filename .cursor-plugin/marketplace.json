@@ -1,0 +1,19 @@
+{
+  "name": "ministry-of-fine-objects",
+  "owner": {
+    "name": "Ministry of Fine Objects"
+  },
+  "metadata": {
+    "description": "Ministry of Fine Objects trade furniture catalogue plugin",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "ministry-of-fine-objects",
+      "source": "ministry-of-fine-objects",
+      "description": "Search the Ministry of Fine Objects trade furniture catalogue.",
+      "repository": "https://github.com/MinistryOfFineObjects/mofo-mcp",
+      "license": "MIT"
+    }
+  ]
+}
