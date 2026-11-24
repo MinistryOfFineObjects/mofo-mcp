@@ -110,6 +110,11 @@ Quotes and orders aren't available through the MCP server yet.
 There's also a JSON feed of active products at
 `https://mcp.ministryoffineobjects.com/feed.json`, with 100 products per page.
 
+## Cursor plugin
+
+The Marketplace plugin is in [`ministry-of-fine-objects/`](ministry-of-fine-objects/).
+[`.cursor-plugin/marketplace.json`](.cursor-plugin/marketplace.json) points at that folder.
+
 ## Privacy
 
 See MOFO's [privacy policy](https://ministryoffineobjects.com/privacy).

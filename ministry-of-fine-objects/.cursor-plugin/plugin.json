@@ -1,0 +1,26 @@
+{
+  "name": "ministry-of-fine-objects",
+  "displayName": "Ministry of Fine Objects",
+  "version": "0.1.0",
+  "description": "Search the Ministry of Fine Objects trade furniture catalogue for products, manufacturers, categories, images, and signed-in net (trade) prices.",
+  "author": {
+    "name": "Ministry of Fine Objects"
+  },
+  "homepage": "https://ministryoffineobjects.com",
+  "repository": "https://github.com/MinistryOfFineObjects/mofo-mcp",
+  "license": "MIT",
+  "keywords": [
+    "furniture",
+    "trade",
+    "catalog",
+    "catalogue",
+    "mcp",
+    "interior-design",
+    "contract-furniture",
+    "lighting",
+    "decor",
+    "manufacturers",
+    "net-price"
+  ],
+  "logo": "assets/logo.png"
+}
