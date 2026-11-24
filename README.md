@@ -118,3 +118,14 @@ See MOFO's [privacy policy](https://ministryoffineobjects.com/privacy).
 
 Found a problem? [Open an issue](https://github.com/MinistryOfFineObjects/mofo-mcp/issues/new/choose).
 Issues are public, so don't include account details or your trade prices.
+
+**Try it in Claude:** 
+Go to Settings → Connectors → Add custom connector and paste
+`https://mcp.ministryoffineobjects.com/mcp`. Sign in with your MOFO trade account to see
+your net prices. [Setup for Claude Code, Cursor and VS Code is in [Connect](#connect).](https://claude.ai/directory/ministry-of-fine-objects)
+
+
+
+https://github.com/user-attachments/assets/3c4f53d6-c196-458f-aa17-f83861511047
+
+
